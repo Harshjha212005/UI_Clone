@@ -1,0 +1,346 @@
+*{
+    background-color: black ;
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+    color: white ;
+    font-style: normal ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.nav-bg{
+    height: 700px ;
+    background-image: url("netflix_bg.png") ;
+    background-size: cover ; 
+}
+.nav-bg-overlay{
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    background-color: rgba(0,0,0,0.5) ;
+    z-index: 1 ;
+}
+.content{
+    display: flex ;
+}
+.nav-bar{
+    position: absolute ;
+    display: flex ;
+    justify-content: space-evenly  ;
+    height: 80px ;
+    width: 100% ;
+    background: transparent ;
+    align-items: center ;
+    padding: 0px 150px ;
+}
+.nav-logo{
+    background: transparent ;
+    width: 400px ;
+    height: 50px ;
+    margin: 0px 0px 0px 16px ;  
+}
+.nav-logo-img{
+    background: transparent;
+    font-size: 40px ;
+    font-weight: bold;
+    color: red ;
+}
+.lan-signin{
+    display: flex ;
+    justify-content: flex-end ;
+    height: 38px ;
+    gap: 10px ;
+    width: 900px ;
+    background: transparent ;
+}
+.nav-lan{
+    display: flex ;
+    width: 121px ;
+    height: 35px ;
+    background: transparent ;
+    border: 2px solid white ; 
+    justify-content: center ;
+    align-items: center ;
+    font-weight: 400 ;
+}
+.nav-lan-icon{
+    background: transparent ;
+    font-size: 16px ;
+}
+.nav-lan-select{
+    background: transparent ;
+    border: none ;
+    font-size: 16px ;
+}
+option{
+    background-color: white;
+    color: black ;
+}
+option:hover{
+    background-color: blue;
+}
+.nav-signin{
+    background: transparent ;
+    background-color: red ;
+    font-size: 16px ;
+    font-weight: 500 ;
+    width: 76px ;
+    height: 35px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+.border{
+    border-radius: 5px ;
+}
+.hero-info{
+    position: absolute ;
+    background: transparent ;
+    text-align: center;
+    width: 100% ;
+    margin-top: 120px ;
+    height: 480px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center ;
+}
+.body-div{
+    background: transparent ;    
+}
+p{
+    text-align: center ;
+    background : transparent ;
+    font-size: 56px ;
+    font-weight: 900 ;
+}
+.cancel{
+    background: transparent ;
+    font-weight: 500 ;
+    font-size: 20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height: 30px ;
+    margin-top: 2rem ;
+}
+.membership{
+    background: transparent ;
+    font-size: 16px ;
+    margin-top: 2rem ;
+    font-weight: 400 ;
+}
+.form{
+    background: transparent ;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.email{
+    background: transparent ;
+}
+.email input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(75, 74, 74);
+    padding: 24px 16px 8px ;
+    border-radius: 5px ;
+    font-size: 16px ;
+}
+.form button {
+    background-color: red ;
+    padding: 2px 10px ;
+    border-radius: 5px ;
+    width: 250px ;
+    height: 50px ;
+    border: none ;
+    font-size: 24px ;
+    font-weight: 500px ;
+}
+.body-content{
+    margin: 0px 150px ;
+}
+.trending{
+    margin-top: 50px ;
+}
+.trending p{
+    font-size: 24px ;
+    font-weight: 500 ;
+    text-align: left ;
+}
+.selections{
+    height: 56px ;
+    display: flex ;
+    gap: 10px ;
+    align-items: flex-end ;
+}
+.selections select{
+    height: 40px ;
+    width: 125px ;
+    border-radius: 5px ;
+    padding: 8px 36px 8px 12px ;
+    font-size: 16px ;
+    font-weight: 400 ;
+}
+.movies{
+    width: 150px ;
+}
+.movies-img{
+    height: 268px ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.movie-box span{
+    bottom: 50px ;
+    left: -7px ;
+    background: transparent ;
+    width: 60px ;
+    height: 100px ;
+    font-size: 100px ;
+    font-weight: 900 ;
+    color: black ;
+    -webkit-text-stroke: 2px white ;
+    position: absolute ;
+    z-index: 2;
+}
+.movie-box{
+    margin-top: 1rem ;
+    position: relative;
+    width: 224px ;
+    height: 268px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+.movie-box img{
+    width: 200px ;
+    height: 252px ; ;
+    z-index: 1 ;
+    border-radius: 10px ;
+    overflow: hidden ; 
+}
+.reason-to-join{
+    width: 1250px ;
+    height: 350px ;
+    margin-top: 5rem ;
+}
+.reasons-box{
+    display: flex ;
+    justify-content: space-between ;
+}
+.reason{
+    position: relative;
+    width: 300px ;
+    height: 300px ;
+    margin: 16px 0px 0px 0px ;
+    padding: 14px 16px 128px ;
+    background: linear-gradient(135deg, rgb(12, 5, 61) ,rgb(8, 1, 54) , rgba(36, 1, 11, 0.9));
+    background-color: rgb(9, 2, 43) ;
+    border-radius: 20px ; 
+}
+.reason i{
+    position:absolute;
+    bottom: 15px;
+    right: 10px;
+    color:maroon;
+    font-size: 3rem ;
+    background: transparent ;
+}
+.reason p{
+    width: 270px ;
+    height: 60px ;
+    font-size : 16px ;
+    font-weight: 400 ;
+    color: rgba(255,255,255,0.7) ;
+    text-align: left ;
+}
+.reason h3{
+    background: transparent ;
+}
+.questions{
+    display: flex ;
+    flex-direction: column ;
+    margin-top: 5rem ;
+}
+.questions h2{
+    font-size: 24px ;
+    font-weight: 500 ;
+}
+.questions button{
+   width: 100% ;
+   height: 84px ;
+   font-size: 24px ;
+   margin-top: 10px ; 
+   display: flex ;
+   border: none ;
+   background-color: rgba(84, 84, 84, 0.521) ;
+
+}
+.button-box{
+    padding: 24px ;
+    font-weight: 400 ;
+    width: 100% ;
+    background: transparent ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.button-box i{
+    background: transparent ;
+    width: 36px ;
+    height: 36px ;
+    font-size: 36px ;
+    font-weight: 1 ;
+}
+.repeat-email{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    margin-top: 5rem;
+    width: 100% ;
+}
+.repeat-email input{
+    width: 575px ;
+}
+.repeat-email h3{
+    font-size: 16px ;
+    font-weight: 400 ;
+}
+footer{
+    height: 400px ;
+    margin-top: 5rem ;
+}
+footer span{
+    font-size: 16px ;
+    color: #ffffffb3;
+}
+footer ul{
+    height: 132px ;
+    list-style-type: none ;
+    margin: 0px 0px 14px -12px ;
+    display: flex ;
+    flex-wrap: wrap ;
+    margin-top: 3rem ;
+}
+footer li { 
+    width: 300px ;
+    height: 25px ; 
+    font-size: 14px ;
+    margin: 12px 0px 0px 12px ;
+}
+footer a{
+    color: #ffffffb3 ;
+}
+.footer-lan{
+    margin-top: 4rem ;
+    padding: 3px ;
+}
+footer p{
+    margin-top: 2rem ;
+    font-size: 14px ;
+    font-weight: 400 ;
+    display: flex ;
+
+}
